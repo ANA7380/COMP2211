@@ -37,7 +37,7 @@
 	# because integer 1 is already in the set
 	
 	```
-- Difference between list and set: Set can have no duplicates
+- Difference between list and set: Set cannot have duplicates, list can
 - **Tuples**: Immutable (Cannot modify after defined), order of the values matter and can include duplicates
 - Difference between list and tuples: Tuples can be used as **keys** in dictionary and as **elements** in sets, while lists cannot.
 	- e.g. `dict = {(x,x+1) : x for x in range(10)}`
